@@ -29,7 +29,7 @@ mysql_connect($host,$user,$password);
 <!DOCtype.html>
 <html>
 	<head>
-		<title>login page by prakhar</title>
+		<title>login page prakhar</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
