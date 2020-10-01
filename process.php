@@ -2,6 +2,7 @@
  $username= $_POST['user'];
  $password= $_POST['pass'];
  //to preventmsqlinjection
+ //comment added
  $username= stripslashes($username);
  $password= stripslashes($password);
  $username= mysql_real_escape_string($username);
