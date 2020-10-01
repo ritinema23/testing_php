@@ -8,6 +8,7 @@
  $username= mysql_real_escape_string($username);
  $password= mysql_real_escape_string($password);
  //connect to the server and select database
+ // second comment added
 mysql_connect("localhost", "root", "");
  mysql_select_db("login");
  //Query the database for the user
